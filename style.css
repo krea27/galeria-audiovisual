@@ -20,18 +20,12 @@ background-color: black;
 
 }
 
-h1{	
-
-	font-family: 'Unica One';}
+h1{	font-family: 'Unica One';}
 h2,h3, h4,h5, h6{
 	
 font-family: 'Unica One', cursive;
 margin-top: 6px;
-margin-bottom: 6px;
-
-	
-	
-}
+margin-bottom: 6px;}
 
 p {
 	display: flex;
@@ -71,139 +65,6 @@ p span {
 	flex: 90%;
 }
 
-.cont-header-logo {
-	margin: 10px;
-
-	flex: 10%;
-
-
-	display: flex;
-	flex-direction: row;
-	justify-content: center;
-
-
-}
-
-
-
-
-.cont-header-titulo h1 {
-	text-align: center;
-}
-
-
-
-
-
-.cont-nav {
-
-	margin: 20px;
-	font-size: 12px;
-	
-	background-image: linear-gradient(135deg, #121211 10%, #000000 100%);
-	border-radius: 10px;
-
-
-	display: flex;
-	flex-direction: row;
-	justify-content: space-evenly;
-	align-items: center;
-}
-	
-nav a {
-	text-decoration: none;
-	color: aqua;
-  }
-  
- 
-
-nav{color:rgb(105, 59, 104);}
-a:link{color:aqua}/*pseudo clases para enlaces en orden  a:link visited: a:hover a:active*/
-a:visited{color:rgb(255, 255, 255)}
-a:hover{color:red}
-a:active{color:rgb(255, 156, 8)}
-
-ul {
-list-style: none;
-margin: 0;
-padding: 0;
-display: flex;
-justify-content: space-between;
-}
-
-li {
-margin-right: 1rem;
-}
-
-
-.texto-grande {
-	font-size: 16px;
-	
-	/* Cambia el tamaño de fuente a 24px */
-}
-
-/* Estilo para los campos de entrada (nombre, apellido, email, teléfono, synth) */
-.form-control {
-	background-color: rgb(0, 0, 0);
-	
-
-	/*texto del usuario*/
-
-}
-
-/* Estilo para los títulos de los campos */
-.form-group label {
-	background-color: black;
-	/* Fondo negro */
-	color: white;
-	/* Texto blanco */
-	padding: 5px;
-	/* Añade un poco de espacio alrededor del texto */
-	border-radius: 5px;
-	/* Añade bordes redondeados */
-	display: inline-block;
-	/* Para que el fondo se aplique solo alrededor del texto */
-	margin-bottom: 5px;
-	/* Espacio inferior entre los títulos y los campos */
-}
-
-
-
-
-
-
-/* Estilo para los párrafos con clase "ind" */
-.ind {
-	
-	font-family: 'Play', sans-serif;
-	font-size: 12PX;
-	border-radius: 10px;
-
-}
-
-.ind p {
-	background-color: black;
-	border-radius: 10px;
-}
-.indi p {
-	background-color: black;
-	margin:0 40px;
-	border-radius: 10px;
-}
-/* Aplica la imagen de fondo a todos los párrafos <p> */
-section {
-	/*background-image: url('img/ojitos.jpg');*/
-	background-color: rgb(0, 0, 0);
-	
-	margin: 20px;
-	
-	/*ver breakpoints getbootstrap elige small  large stra large*/
-}
- .ojitos {
-	background-image: url('img/ojitos.jpg');
-    margin: 20px;
-	
-}
 
 /* Estilo para el botón de reproducción */
 .btn-primary.play-button {
@@ -265,11 +126,7 @@ section {
     background: red; /* Cambiado a rojo */
     cursor: pointer;
 }
-.carousel-image {
-    max-width: 50%; /* Ajusta el tamaño deseado */
-    margin: 0 auto; /* Centra horizontalmente */
-    text-align: center; /* Centra verticalmente si es necesario */
-}
+
 ::-webkit-scrollbar {
     display: none;
 }
