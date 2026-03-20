@@ -36,7 +36,7 @@ p {
 	align-items: center;
 	justify-content:center ;
 	font-family: 'Unica One';
-	font-size: 12px;
+	font-size: 14px;
 	margin-left: 10px;
 	 
 }
@@ -67,7 +67,7 @@ p span {
 
 
 /* Estilo para el botón de reproducción */
-.btn.play-button {
+.btn-primary.play-button {
     background-color: transparent; /* Fondo transparente */
     color: rgb(85, 79, 79); /* Texto en color gris */
     border: 1px solid rgb(247, 246, 246); /* Borde negro sólido */
